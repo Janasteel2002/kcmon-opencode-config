@@ -22,6 +22,15 @@ Ikuti langkah-langkah berikut untuk menerapkan konfigurasi:
 cp -r .config/opencode/* ~/.config/opencode/
 ```
 
+### Mulai Cepat (Windows)
+
+Jalur konfigurasi: `C:\Users\$USER$\.config\opencode`
+
+```powershell
+# Salin berkas konfigurasi
+Copy-Item -Recurse .config\opencode\* C:\Users\$env:USERNAME\.config\opencode\
+```
+
 ### Jalankan OpenCode
 ```bash
 opencode

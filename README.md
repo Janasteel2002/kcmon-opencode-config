@@ -22,6 +22,15 @@ Follow these steps to apply the configuration:
 cp -r .config/opencode/* ~/.config/opencode/
 ```
 
+### Quick Start (Windows)
+
+Configuration path: `C:\Users\$USER$\.config\opencode`
+
+```powershell
+# Copy configuration files
+Copy-Item -Recurse .config\opencode\* C:\Users\$env:USERNAME\.config\opencode\
+```
+
 ### Run OpenCode
 ```bash
 opencode
