@@ -1,8 +1,83 @@
 {
   "$schema": "https://raw.githubusercontent.com/code-yeongyu/oh-my-opencode/master/assets/oh-my-opencode.schema.json",
   "google_auth": false,
+  "auto_update": true,
+  "browser_automation_engine": {
+    "provider": "playwright"
+  },
+  "git_master": {
+    "commit_footer": false,
+    "include_co_authored_by": false
+  },
+  "notification": {
+    "force_enable": true
+  },
+  "lsp": {},
+  "sisyphus_agent": {
+    "disabled": false,
+    "default_builder_enabled": true,
+    "planner_enabled": true,
+    "replace_plan": false
+  },
+  "experimental": {
+    "aggressive_truncation": false,
+    "auto_resume": true,
+    "truncate_all_tool_outputs": false,
+    "dynamic_context_pruning": {
+      "enabled": true,
+      "notification": "detailed",
+      "turn_protection": {
+        "enabled": true,
+        "turns": 3
+      },
+      "strategies": {
+        "deduplication": {
+          "enabled": true
+        },
+        "supersede_writes": {
+          "enabled": true,
+          "aggressive": false
+        },
+        "purge_errors": {
+          "enabled": true,
+          "turns": 5
+        }
+      }
+    }
+  },
+  "ralph_loop": {
+    "enabled": false,
+    "default_max_iterations": 100
+  },
+  "background_task": {
+    "defaultConcurrency": 4,
+    "staleTimeoutMs": 300000
+  },
+  "disabled_hooks": [
+    "anthropic-context-window-limit-recovery"
+  ],
   "agents": {
     "sisyphus": {
+      "model": "google/antigravity-gemini-3-pro",
+      "variant": "high"
+    },
+    "sisyphus-junior": {
+      "model": "google/antigravity-gemini-3-flash",
+      "variant": "high"
+    },
+    "build": {
+      "model": "google/antigravity-gemini-3-pro",
+      "variant": "high"
+    },
+    "plan": {
+      "model": "google/antigravity-gemini-3-pro",
+      "variant": "high"
+    },
+    "OpenCode-Builder": {
+      "model": "google/antigravity-gemini-3-pro",
+      "variant": "high"
+    },
+    "hephaestus": {
       "model": "google/antigravity-gemini-3-pro",
       "variant": "high"
     },
@@ -19,7 +94,7 @@
       "variant": "high"
     },
     "multimodal-looker": {
-      "model": "google/antigravity-gemini-3-flash",
+      "model": "google/antigravity-gemini-3-pro",
       "variant": "high"
     },
     "prometheus": {
@@ -27,23 +102,23 @@
       "variant": "high"
     },
     "metis": {
-      "model": "google/antigravity-gemini-3-pro",
+      "model": "google/antigravity-gemini-3-flash",
       "variant": "high"
     },
     "momus": {
       "model": "google/antigravity-gemini-3-flash",
-      "variant": "high"
+      "variant": "medium"
     },
     "atlas": {
       "model": "google/antigravity-gemini-3-pro",
       "variant": "high"
     },
     "executor": {
-      "model": "google/antigravity-gemini-3-pro",
-      "variant": "low"
+      "model": "google/antigravity-gemini-3-flash",
+      "variant": "medium"
     },
     "reviewer": {
-      "model": "google/antigravity-gemini-3-pro",
+      "model": "google/antigravity-gemini-3-flash",
       "variant": "high"
     },
     "tester": {
@@ -55,7 +130,7 @@
       "variant": "high"
     },
     "refactorer": {
-      "model": "google/antigravity-gemini-3-pro",
+      "model": "google/antigravity-gemini-3-flash",
       "variant": "high"
     },
     "doc-writer": {
@@ -64,49 +139,59 @@
     }
   },
   "categories": {
+    "ultrabrain": {
+      "model": "google/antigravity-gemini-3-pro",
+      "variant": "high",
+      "reasoningEffort": "xhigh"
+    },
+    "security": {
+      "model": "google/antigravity-gemini-3-pro",
+      "variant": "high",
+      "reasoningEffort": "high"
+    },
+    "implementation": {
+      "model": "google/antigravity-gemini-3-pro",
+      "variant": "high",
+      "reasoningEffort": "high"
+    },
+    "quick": {
+      "model": "google/antigravity-gemini-3-flash",
+      "variant": "minimal",
+      "reasoningEffort": "low"
+    },
+    "writing": {
+      "model": "google/antigravity-gemini-3-flash",
+      "variant": "high",
+      "textVerbosity": "high"
+    },
+    "review": {
+      "model": "google/antigravity-gemini-3-flash",
+      "variant": "high",
+      "reasoningEffort": "high"
+    },
+    "testing": {
+      "model": "google/antigravity-gemini-3-flash",
+      "variant": "high",
+      "reasoningEffort": "high"
+    },
     "visual-engineering": {
       "model": "google/antigravity-gemini-3-pro",
-      "variant": "high"
+      "variant": "high",
+      "reasoningEffort": "high"
     },
     "artistry": {
       "model": "google/antigravity-gemini-3-pro",
       "variant": "high"
     },
-    "writing": {
-      "model": "google/antigravity-gemini-3-pro",
-      "variant": "high"
-    },
-    "quick": {
-      "model": "google/antigravity-gemini-3-flash",
-      "variant": "high"
-    },
-    "ultrabrain": {
-      "model": "google/antigravity-gemini-3-pro",
-      "variant": "high"
-    },
-    "implementation": {
-      "model": "google/antigravity-gemini-3-pro",
-      "variant": "high"
-    },
-    "review": {
-      "model": "google/antigravity-gemini-3-pro",
-      "variant": "high"
-    },
-    "testing": {
-      "model": "google/antigravity-gemini-3-flash",
-      "variant": "high"
-    },
-    "security": {
-      "model": "google/antigravity-gemini-3-pro",
-      "variant": "high"
-    },
     "unspecified-low": {
       "model": "google/antigravity-gemini-3-flash",
-      "variant": "high"
+      "variant": "high",
+      "reasoningEffort": "medium"
     },
     "unspecified-high": {
       "model": "google/antigravity-gemini-3-pro",
-      "variant": "high"
+      "variant": "high",
+      "reasoningEffort": "high"
     }
   }
 }

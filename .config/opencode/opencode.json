@@ -1,8 +1,9 @@
 {
   "$schema": "https://opencode.ai/config.json",
   "theme": "system",
+  "mcp": {},
   "plugin": [
-    "opencode-antigravity-auth@latest",
+    "opencode-antigravity-auth@beta",
     "oh-my-opencode@latest"
   ],
   "provider": {
@@ -110,8 +111,8 @@
             }
           }
         },
-        "antigravity-claude-opus-4-5-thinking": {
-          "name": "Claude Opus 4.5 Thinking (Antigravity)",
+        "antigravity-claude-opus-4-6-thinking": {
+          "name": "Claude Opus 4.6 Thinking (Antigravity)",
           "limit": {
             "context": 200000,
             "output": 64000
